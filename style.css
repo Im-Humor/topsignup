@@ -11,6 +11,14 @@ body {
     margin: 0;
 }
 
+input {
+    width: 100%;
+}
+
+button {
+    margin: 2rem 0 0 2rem;
+}
+
 .left-hero-container {
     background-image: url('hero-image.jpg');
     background-size: cover;
@@ -22,8 +30,17 @@ body {
 .hero-overlay {
     background-color: black;
     opacity: 0.5;
-    flex: 0 1 15%;
+    flex: 0 1 20%;
     margin-top: 15rem;
+}
+
+.hero-bottom-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+    color: white;
 }
 
 .main-container {
@@ -46,14 +63,33 @@ body {
 
 .form-container {
     display: flex;
-    flex: 0 1 30%;
+    flex-direction: column;
+    flex: 0 0 0;
     background-color: white;
     box-shadow: 5px 5px 10px grey;
-    
+    padding: 1rem 2rem;
+}
+
+.legend-container {
+    margin-bottom: 1rem;
+}
+
+.form-inputs {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.input-field {
+    margin: 0 7rem 1rem 0;
+    flex-basis: 25%;
 }
 
 .form-bottom-section {
     display: flex;
     flex-direction: column;
     flex: 1;
+}
+
+.bottom-text {
+    margin: 1rem 0 0 2rem;
 }
