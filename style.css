@@ -1,0 +1,59 @@
+html {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex: 1;
+    margin: 0;
+}
+
+.left-hero-container {
+    background-image: url('hero-image.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 40%;
+}
+
+.hero-overlay {
+    background-color: black;
+    opacity: 0.5;
+    flex: 0 1 15%;
+    margin-top: 15rem;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    background-color: lightgrey;
+    flex: 1;
+
+}
+
+.form-top-section {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: flex-end;
+    padding: 3rem 3rem;
+    font-size: 24px;
+    font-weight: 120;
+}
+
+.form-container {
+    display: flex;
+    flex: 0 1 30%;
+    background-color: white;
+    box-shadow: 5px 5px 10px grey;
+    
+}
+
+.form-bottom-section {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
