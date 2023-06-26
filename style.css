@@ -125,6 +125,10 @@ a {
     flex-basis: 25%;
 }
 
+.no-match {
+    color: red;
+}
+
 .form-bottom-section {
     display: flex;
     flex-direction: column;
